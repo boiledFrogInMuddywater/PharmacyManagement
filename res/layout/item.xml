@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+ <TextView
+     android:id="@+id/tv1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginLeft="22dp"
+     android:layout_marginTop="22dp"
+     android:text="账号:"
+     android:textSize="15sp" />
+
+  <TextView
+      android:id="@+id/tv_account"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/tv1"
+      android:layout_alignBottom="@+id/tv1"
+      android:layout_marginLeft="5dp"
+      android:layout_toRightOf="@+id/tv1"
+      android:text="001"
+      android:textSize="15sp" />
+
+  <TextView
+      android:id="@+id/tv2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/tv_account"
+      android:layout_alignBottom="@+id/tv_account"
+      android:layout_centerHorizontal="true"
+      android:text="姓名:"
+      android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv2"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_toRightOf="@+id/tv2"
+        android:text="zhangsan"
+        android:textSize="15sp" />
+
+ <TextView
+     android:id="@+id/tv3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/tv1"
+     android:layout_marginTop="15dp"
+     android:layout_toLeftOf="@+id/tv_account"
+     android:text="手机:"
+     android:textSize="15sp" />
+
+ <TextView
+     android:id="@+id/tv_phone"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBaseline="@+id/tv3"
+     android:layout_alignBottom="@+id/tv3"
+     android:layout_toRightOf="@+id/tv3"
+     android:text="17806707630"
+     android:textSize="12sp" />
+
+ <TextView
+     android:id="@+id/tv4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/tv_phone"
+     android:layout_alignRight="@+id/tv2"
+     android:text="邮箱："
+     android:textSize="15sp" />
+
+  <TextView
+      android:id="@+id/tv_email"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/tv4"
+      android:layout_alignBottom="@+id/tv4"
+      android:layout_toRightOf="@+id/tv4"
+      android:text="1256990025@qq.com"
+      android:textSize="12sp" />
+
+</RelativeLayout>

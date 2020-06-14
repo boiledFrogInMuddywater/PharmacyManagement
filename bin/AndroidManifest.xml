@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pharmacymanagement"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RootIndexActivity"
+            android:label="@string/title_activity_root_index" >
+        </activity>
+        <activity
+            android:name=".DoctorActivity"
+            android:label="@string/title_activity_doctor" >
+        </activity>
+        <activity
+            android:name=".AddDoctorActivity"
+            android:label="@string/title_activity_add_doctor" >
+        </activity>
+        <activity
+            android:name=".ChangeDoctorMessActivity"
+            android:label="@string/title_activity_change_doctor_mess" >
+        </activity>
+        <activity
+            android:name=".MedicineActivity"
+            android:label="@string/title_activity_medicine" >
+        </activity>
+        <activity
+            android:name=".AddMedicineActivity"
+            android:label="@string/title_activity_add_medicine" >
+        </activity>
+        <activity
+            android:name=".ChangeMedicineMessActivity"
+            android:label="@string/title_activity_change_medicine_mess" >
+        </activity>
+        <activity
+            android:name=".ChangeInventoryActivity"
+            android:label="@string/title_activity_change_inventory" >
+        </activity>
+        <activity
+            android:name=".InventoryActivity"
+            android:label="@string/title_activity_inventory" >
+        </activity>
+        <activity
+            android:name=".ChangePwdActivity"
+            android:label="@string/title_activity_change_pwd" >
+        </activity>
+        <activity
+            android:name=".PatientActivity"
+            android:label="@string/title_activity_patient" >
+        </activity>
+        <activity
+            android:name=".PatientDetailActivity"
+            android:label="@string/title_activity_patient_detail" >
+        </activity>
+        <activity
+            android:name=".doctor.DoctorIndexActivity"
+            android:label="@string/title_activity_doctor_index" >
+        </activity>
+        <activity
+            android:name=".doctor.DiagnosticActivity"
+            android:label="@string/title_activity_diagnostic" >
+        </activity>
+        <activity
+            android:name=".BaseMessageActivity"
+            android:label="@string/title_activity_base_message" >
+        </activity>
+    </application>
+
+</manifest>

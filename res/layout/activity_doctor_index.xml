@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pharmacymanagement.doctor.DoctorIndexActivity" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+       android:layout_marginTop="45dp" >
+
+        <ImageView
+            android:id="@+id/iv_diagnostic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/diagnostic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_diagnostic"
+             android:layout_marginLeft="10dp"
+            android:text="诊断台" />
+
+        <ImageView
+            android:id="@+id/iv_medicine"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/iv_diagnostic"
+            android:scaleType="fitCenter"
+            android:src="@drawable/medicine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_medicine"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/iv_diagnostic"
+            android:text="药物基本信息" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+       android:layout_marginTop="45dp" >
+
+        <ImageView
+            android:id="@+id/iv_patient"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/patient" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_patient"
+            android:text="患者信息" />
+
+        <ImageView
+            android:id="@+id/iv_inout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/iv_patient"
+            android:scaleType="fitCenter"
+            android:src="@drawable/inout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_inout"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/iv_patient"
+            android:text="出入库记录" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+       android:layout_marginTop="45dp" >
+
+        <ImageView
+            android:id="@+id/iv_basemess"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/basemess" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_basemess"
+            android:text="基本信息" />
+
+        <ImageView
+            android:id="@+id/iv_changepwd"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/iv_basemess"
+            android:scaleType="fitCenter"
+            android:src="@drawable/changepwd" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_changepwd"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/iv_basemess"
+            android:text="修改密码" />
+    </RelativeLayout>
+</LinearLayout>

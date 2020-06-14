@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PharmacyManagement</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_root_index">RootIndexActivity</string>
+    <string name="title_activity_doctor">DoctorActivity</string>
+    <string name="title_activity_add_doctor">AddDoctorActivity</string>
+    <string name="title_activity_change_doctor_mess">ChangeDoctorMessActivity</string>
+    <string name="title_activity_medicine">MedicineActivity</string>
+    <string name="title_activity_add_medicine">AddMedicineActivity</string>
+    <string name="title_activity_change_medicine_mess">ChangeMedicineMessActivity</string>
+    <string name="title_activity_change_inventory">ChangeInventoryActivity</string>
+    <string name="title_activity_inventory">InventoryActivity</string>
+    <string name="title_activity_change_pwd">ChangePwdActivity</string>
+    <string name="title_activity_patient">PatientActivity</string>
+    <string name="title_activity_patient_detail">PatientDetailActivity</string>
+    <string name="title_activity_doctor_index">DoctorIndexActivity</string>
+    <string name="title_activity_diagnostic">DiagnosticActivity</string>
+    <string name="title_activity_base_message">BaseMessageActivity</string>
+
+</resources>
